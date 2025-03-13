@@ -1,0 +1,121 @@
+.cadastro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+   
+    color: #ffffff;
+  }
+  
+  .cadastro-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    
+  }
+  
+  .cadastro-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    padding: 20px 40px;
+  }
+  
+  
+  .voltar-button {
+    background-color: #14273b;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .voltar-button:hover {
+    background-color: #1e3a5a;
+  }
+  
+  .cadastro-form {
+    background-color: #021A30;
+    padding: 40px;
+    width: 350px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .cadastro-form h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .cadastro-form p {
+    font-size: 14px;
+    color: #b0bec5;
+    margin-bottom: 20px;
+  }
+  
+  .cadastro-form label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .cadastro-form input,
+  .cadastro-form select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #525458;
+    color: #ffffff;
+    font-size: 14px;
+  }
+  
+  .cadastrar-button {
+    width: 100%;
+    background-color: #b66529;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .cadastrar-button:hover {
+    background-color: #914d21;
+  }
+  
+  .toast {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .success {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .error {
+    background-color: #dc3545;
+    color: white;
+  }
+  
