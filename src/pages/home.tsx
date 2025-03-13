@@ -34,7 +34,7 @@ const Home: React.FC = () => {
         >
           <strong>Que pena! Estamos em desenvolvimento :(</strong>
         </motion.h3>
-        <p className="home-subtitle">Nossa aplicação está em desenvolvimento, em breve teremos novidades</p>
+        <p className="home-subtitle">Nossa aplicação está em desenvolvimento, em breve teremos novidades!!</p>
       </div>
     </motion.div>
   );

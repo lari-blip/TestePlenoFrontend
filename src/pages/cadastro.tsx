@@ -96,7 +96,7 @@ const Cadastro: React.FC = () => {
             type="text" 
             value={bio} 
             onChange={(e) => setBio(e.target.value)} 
-            placeholder="Fale um pouco sobre você" 
+            placeholder="Fale um pouco sobre você:" 
           />
 
           <label>Contato</label>

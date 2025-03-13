@@ -41,9 +41,9 @@ const Login = () => {
         transition={{ type: "spring", stiffness: 100 }}
       >
         <img src={logo} alt="Capys Logo" className="logo" />
-        <h2>Login</h2>
+        <h2> Login </h2>
         <form onSubmit={handleLogin}>
-          <label>Email</label>
+          <label> Email </label>
           <motion.input
             whileFocus={{ scale: 1.05 }}
             type="email"
